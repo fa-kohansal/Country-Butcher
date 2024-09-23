@@ -1,0 +1,48 @@
+{
+  "dataHeritage": [
+    {"image":"./images/butcher-looking-off-camera.jpeg","title": "The Family Business",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum aliquam cursus. Mauris molestie aliquam urna. Curabitur nec eleifend risus. Integer eget libero sed elit pharetra ultricies eu in augue. Nullam nunc justo, porttitor id semper nec, pharetra sit amet enim. Donec rutrum diam vel est cursus lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum aliquam cursus. Mauris molestie aliquam urna. Curabitur nec eleifend risus. Integer eget libero sed elit pharetra ultricies eu in augue. Nullam nunc justo, porttitor id semper nec, pharetra sit amet enim. Donec rutrum diam vel est cursus lobortis."
+    },
+    {"image":"./images/heritage-steak-image.jpeg","title": "From Farm To Table",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum aliquam cursus. Mauris molestie aliquam urna. Curabitur nec eleifend risus. Integer eget libero sed elit pharetra ultricies eu in augue. Nullam nunc justo, porttitor id semper nec, pharetra sit amet enim. Donec rutrum diam vel est cursus lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vestibulum aliquam cursus. Mauris molestie aliquam urna. Curabitur nec eleifend risus. Integer eget libero sed elit pharetra ultricies eu in augue. Nullam nunc justo, porttitor id semper nec, pharetra sit amet enim. Donec rutrum diam vel est cursus lobortis."
+    }
+  ],
+  "dataShop": [
+    {
+      "image": " ./images/ground-beef-800x807.jpeg",
+      "title": "Ground Beef Chuck",
+      "minPrice": "$4.99",
+      "maxPrice" : "$14.99"
+    },
+    {
+      "image": " ./images/streaky-bacon-800x807.jpeg",
+      "title": "Streaky Bacon",
+      "minPrice": "$3.50 ",
+      "maxPrice" : "$12.00"
+    },
+    {
+      "image": " ./images/seasoned-chicken-800x807.webp",
+      "title": "Chicken Fillet",
+      "minPrice": "$8.99 ",
+      "maxPrice" : "$38.99"
+    },
+    {
+      "image": " ./images/beef-tenderloin-800x807.jpeg",
+      "title": "Beef Tenderloin",
+      "minPrice": "$8.99 ",
+      "maxPrice" : "$32.99"
+    },
+    {
+      "image": " ./images/sirloin-steaks-800x807.webp",
+      "title": "Sirloin Steaks",
+      "minPrice": "$9.99 ",
+      "maxPrice" : "$16.99"
+    },
+    {
+      "image": " ./images/t-bone-steak-800x807.jpeg",
+      "title": "Porterhouse Steak",
+      "minPrice": "$18.99 ",
+      "maxPrice" : "$34.99"
+    }
+  ]
+}
