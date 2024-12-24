@@ -3,11 +3,11 @@ name: Deploy to Production
 on:
   push:
     branches:
-      - main  # این را مطابق با نام برنچ خود تغییر دهید (مثلاً "main" یا "master")
+      - main  
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # یا هر سیستم عامل دیگری که نیاز دارید
+    runs-on: ubuntu-latest  
 
     steps:
       - name: Check out code
@@ -16,23 +16,16 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'  # یا نسخه Node.js که پروژه‌تان نیاز دارد
+          node-version: '16' 
 
       - name: Install dependencies
         run: |
-          npm install # این فقط در صورتی است که شما از npm استفاده کنید یا وابستگی خاصی داشته باشید
+          npm install 
 
       - name: Build project (optional)
         run: |
-          # اگر پروژه شما نیاز به build نداشت، این قسمت را می‌توانید حذف کنید.
-          # در صورتی که از ابزارهایی مثل Gulp یا Webpack استفاده می‌کنید، اینجا دستور build را وارد کنید.
-          echo "Running build step..."
-          # برای مثال:
-          # npm run build
-
+         npm run build
       - name: Deploy
         run: |
-          # اینجا دستورات دیپلوی خود را قرار دهید.
-          # به عنوان مثال اگر به یک سرور SSH متصل می‌شوید:
-          # ssh user@server "cd /path/to/project && npm install && npm run build"
-          echo "Deploying the app..."
+         npm install
+         npm run build
