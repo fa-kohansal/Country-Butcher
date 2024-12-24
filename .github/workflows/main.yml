@@ -22,8 +22,17 @@ jobs:
         run: |
           npm install # این فقط در صورتی است که شما از npm استفاده کنید یا وابستگی خاصی داشته باشید
 
-     
+      - name: Build project (optional)
+        run: |
+          # اگر پروژه شما نیاز به build نداشت، این قسمت را می‌توانید حذف کنید.
+          # در صورتی که از ابزارهایی مثل Gulp یا Webpack استفاده می‌کنید، اینجا دستور build را وارد کنید.
+          echo "Running build step..."
+          # برای مثال:
+          # npm run build
+
       - name: Deploy
         run: |
-          npm install 
-         
+          # اینجا دستورات دیپلوی خود را قرار دهید.
+          # به عنوان مثال اگر به یک سرور SSH متصل می‌شوید:
+          # ssh user@server "cd /path/to/project && npm install && npm run build"
+          echo "Deploying the app..."
