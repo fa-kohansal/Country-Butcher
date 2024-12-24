@@ -27,5 +27,4 @@ jobs:
          npm run build
       - name: Deploy
         run: |
-         npm install
-         npm run build
+          ssh user@server "git@github.com:fa-kohansal/Country-Butcher.git" echo "deploying the app"
