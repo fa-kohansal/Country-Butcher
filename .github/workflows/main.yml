@@ -1,0 +1,29 @@
+name: Deploy to Production
+
+on:
+  push:
+    branches:
+      - main  # این را مطابق با نام برنچ خود تغییر دهید (مثلاً "main" یا "master")
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # یا هر سیستم عامل دیگری که نیاز دارید
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'  # یا نسخه Node.js که پروژه‌تان نیاز دارد
+
+      - name: Install dependencies
+        run: |
+          npm install # این فقط در صورتی است که شما از npm استفاده کنید یا وابستگی خاصی داشته باشید
+
+     
+      - name: Deploy
+        run: |
+          npm install 
+         
